@@ -157,7 +157,7 @@ html[data-theme="dark"] {
   --page-surface-background-color: #000000;
   --content-card-background-color: #101214;
   --content-card-border-color: #202428;
-  --content-card-border-radius: 4px;
+  --content-card-border-radius: 20px;
   --content-card-padding: 20px;
   --content-card-class-tag-background-color: #FF2E74;
   --content-card-class-tag-border-radius: 12px;
