@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "style-dictionary": "^3.7.2"
+  },
+  "dependencies": {
+    "@tokens-studio/sd-transforms": "^0.5.5",
+    "token-transformer": "^0.0.32"
+  }
+}

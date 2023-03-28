@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "DB Heaventrounded";
+    src: url("font/db_heaventroundedv3.2.1-webfont.woff2");
+    font-weight: 400;
+  }
+
+@font-face {
+    font-family: "DB Heaventrounded";
+    src: url("font/db_heaventrounded_med_v3.2.1-webfont.woff2");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "DB Heaventrounded";
+    src: url("font/db_heaventrounded_bd_v3.2.1-webfont.woff2");
+    font-weight: 700;
+}
+
+.page{
+    padding: 40px;
+    background-color: var(--page-surface-background-color);
+}
