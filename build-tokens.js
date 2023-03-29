@@ -26,20 +26,21 @@ const sd = StyleDictionary.extend({
         {
           destination: 'global.css',
           format: 'css/variables',
-          /*options: {
+          selector: ':root',
+          options: {
             outputReferences: true
-          }*/
+          }
         },
       ],
     },
-    "android": {
+    /*"android": {
       "transforms": ["attribute/cti", "name/cti/snake", "color/hex", "size/remToSp", "size/remToDp"],
       "buildPath": "build/android/src/main/res/values/",
       "files": [{
         "destination": "global.xml",
         "format": "android/colors"
       }]
-    },
+    },*/
   },
 });
 

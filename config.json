@@ -3,7 +3,6 @@
   "platforms": {
     "css": {
       "transformGroup": "css",
-      "prefix": "co",
       "buildPath": "build/css/",
       "files": [{
         "destination": "global.css",

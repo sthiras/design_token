@@ -1,7 +1,7 @@
 <html>
     <head>
-        <link rel="stylesheet" href="build/css/global.css">
-        <link rel="stylesheet" href="build/css/dark.css">
+        <link id="base-style" rel="stylesheet" href="build/css/global.css">
+        <link id="dark-style" rel="stylesheet" href="build/css/dark.css" disabled="disabled">
         <link rel="stylesheet" href="app.css">
         <link rel="stylesheet" href="content-card.css">
     </head>
@@ -71,18 +71,17 @@
         </div>
     </body>
     <script>
-        document.documentElement.setAttribute('data-theme', 'light');
+        //document.documentElement.setAttribute('data-theme', 'light');
         const toggle = document.getElementById("theme-toggle");
+        const darkStyle = document.getElementById("dark-style");
 
         toggle.onclick = function() {
-            let currentTheme = document.documentElement.getAttribute("data-theme");
-            let targetTheme = "light";
 
-            if (currentTheme === "light") {
-                targetTheme = "dark";
+            if (darkStyle.hasAttribute('disabled')) {
+                darkStyle.removeAttribute('disabled');
+            } else {
+                darkStyle.setAttribute('disabled', '');
             }
-
-            document.documentElement.setAttribute('data-theme', targetTheme);
         };
 
     </script>
